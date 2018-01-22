@@ -1,0 +1,42 @@
+  body{
+    background-image: url("../assets/img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+  }
+
+  .container-fluid{
+  	position: relative;
+  }
+
+  body > div > div{
+  	position: absolute; 
+  	margin-top: 85vh;
+  	height: 18%;  	
+  }
+
+body > div > div > button{
+	height: 10vh;
+	width: 15vh;
+	padding: 25vh;
+}
+
+div.container{
+	margin-left: 20%;
+}
+  .btn-transparent {
+    background: transparent;
+    color: white;
+    -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+    border: 2px solid white;
+}
+
+    .btn-transparent:hover{
+        color: white;
+        background-color: rgba(255,255,255,0.2);
+    }

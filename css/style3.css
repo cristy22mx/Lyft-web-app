@@ -1,0 +1,57 @@
+  body{
+    background: white;
+    height: 100vh;
+  }
+
+  .row{
+  	margin: 1vh;
+  	text-align: center;
+  }
+
+  p{
+  	font-size: 0.8em;
+  }
+
+  .glyphicon{
+  	float: left;
+  	font-size: 3em;
+  	color: #DA50A2;
+  	margin: 0;
+  }
+
+
+/*Botón de siguiente*/
+  body > div > div > div > div.row.col-sm-12{
+  	margin: 0;
+  	padding: 0;
+  }
+
+  h2{
+  	margin-right: 25%; 
+  }
+
+
+
+
+
+/*Botón de NEXT*/
+  body > div > div.row.col-sm-12 > div > div:nth-child(3) > div:nth-child(3) > a{
+  	width: 50vh;
+  	background-color:#EA0B8C;
+  	color: white;
+  	height: 8vh;
+  }
+
+/*Botón de NEXT página registro Verify*/  
+
+body > div > div > div > div:nth-child(6) > div > a{
+  	margin-top: 50vh;
+  	width: 50vh;
+  	background-color:#EA0B8C;
+  	color: white;
+  	height: 8vh;
+  }
+
+body > div > div > div > div.row.col-sm-1 > span > input{
+	float: right;
+}

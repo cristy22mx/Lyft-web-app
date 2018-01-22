@@ -1,0 +1,17 @@
+  body{
+    background: purple;
+    height: 100vh;
+    position: relative;
+  }
+
+
+  /*div.container{
+    position: relative;
+    position: center;
+  }*/
+
+  div.container>img{
+    width: auto;
+    height: 50vh;
+  }
+
